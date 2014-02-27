@@ -1,0 +1,51 @@
+/*
+Be Sure to append a '../' to the front of all path names
+*/
+
+/* Quicksand */
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('../fonts/quicksand/light/quicksand-light-webfont.eot');
+    src: url('../fonts/quicksand/light/quicksand-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quicksand/light/quicksand-light-webfont.woff') format('woff'),
+         url('../fonts/quicksand/light/quicksand-light-webfont.ttf') format('truetype'),
+         url('../fonts/quicksand/light/quicksand-light-webfont.svg#quicksandlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('../fonts/quicksand/regular/quicksand-regular-webfont.eot');
+    src: url('../fonts/quicksand/regular/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quicksand/regular/quicksand-regular-webfont.woff') format('woff'),
+         url('../fonts/quicksand/regular/quicksand-regular-webfont.ttf') format('truetype'),
+         url('../fonts/quicksand/regular/quicksand-regular-webfont.svg#quicksandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*Open Sans*/
+@font-face {
+    font-family: 'opensans_bold';
+    src: url('../fonts/opensans/bold/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/opensans/bold/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/bold/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/opensans/bold/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans/bold/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lobster_regular';
+    src: url('../fonts/lobster/lobster_1.3-webfont.eot');
+    src: url('../fonts/lobster/lobster_1.3-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lobster/lobster_1.3-webfont.woff') format('woff'),
+         url('../fonts/lobster/lobster_1.3-webfont.ttf') format('truetype'),
+         url('../fonts/lobster/lobster_1.3-webfont.svg#lobster_1.3regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
