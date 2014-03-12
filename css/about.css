@@ -1,5 +1,10 @@
+html {
+  background-color: white;
+}
+
 .about-element-default {
     font-size: 18px;
+    background-color: #333333;
     padding-bottom: 5em;
     padding-bottom: 10%;
     padding-top: 5em;
@@ -32,6 +37,7 @@
     padding-top: 5%;
     padding-bottom: 15%;
     color: white;
+    background-color: #4791D2;
     font-family: quicksandregular;
     font-size: 30px;
 }
@@ -47,28 +53,42 @@
 
 }
 
+.main {
+  margin-right: auto;
+  margin-left: auto; 
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 100px;
+  padding-bottom: 2.5em;
+  }
+
+  .footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: -1;
+  }
+
 .teach-phil-default { /*Our Principles */
-    padding-bottom: 20%;
+    padding-bottom: 3em;
     max-height: 20%;
     color: black;
+    background-color: #4791D2;
     font-family: quicksandregular;
     font-size: 30px;
     color: white;
 
-  /*  padding-top: 3%;
-    padding-bottom: 20%;
+}
+
+
+.row-content-info {
+    margin-bottom: 0;
+    min-width: 100%;
+    background-color: #333333;
     color: white;
-    font-family: quicksandregular;
-    font-size: 30px; 
-    */
+    line-height: 4em;    
 }
-
-
-
-.about-head {
-    padding-bottom: 3em;
-}
-
 
 /* Links Buttons */
 .btn-link {
@@ -113,16 +133,18 @@
 
 .section-header-about {
     font-family: opensans_bold;
-    font-size: 50px;  
+    font-size: 50px; 
+    margin-bottom: 0;
 }
 
 .about-icons {
+  margin-top: 0;
   margin-bottom: 1em;
 }
 
 .header-about { /*Parent container of heading-about*/
     padding-top: 3em;
-    padding-bottom: 5em;
+    margin-bottom: 2em;
     font-size: 30px;
     color: white;
     font-family: quicksandregular;  
@@ -132,4 +154,3 @@
     font-size: 50px;
     padding-bottom: 5%;
 }
-

@@ -1,8 +1,42 @@
 /* Lessons CSS */
-#lesson_info {
-    max-width:          
+html {
+	background-color: white;
 }
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+ 	z-index: -1;
+}
+
+.row-content-info {
+    margin-bottom: 0;
+    min-width: 100%;
+    background-color: #333333;
+    color: white;
+    line-height: 4em;    
+}
+.main {
+	margin-right: auto;
+	margin-left: auto; 
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 100px;
+	padding-bottom: 2.5em;
+}
+
 
 #lessons_btn {
     margin-top: 1em;
 }
+
+.row-content-lessons {
+    min-width: 100%;
+    color: white;
+    font-family: quicksandregular;
+    font-size: 30px;
+    background-color: #4791D2;  
+}
+
