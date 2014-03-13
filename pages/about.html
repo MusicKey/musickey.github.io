@@ -11,8 +11,8 @@
 	    <link rel='stylesheet' type='text/css' href='../css/style.css' /> <!--Main-->
 	    <link rel='stylesheet' type='text/css' href='../css/about.css' /> <!--About Specific CSS-->
 	    <link rel='stylesheet' type='text/css' href='../css/font.css' /> <!--Font-->
-	    <script src='js/jquery-1.10.2.min.js'></script>
-	    <script src='js/bootstrap.js'></script>
+	    <script src='../js/jquery-1.10.2.min.js'></script>
+	    <script src='../js/bootstrap.js'></script>
 	    <script type='text/javascript' src='smoothscroll.js'></script>
 	    <!--End Links-->
 	</head>
@@ -29,13 +29,21 @@
                 <a class='navbar-brand'>Music Key</a>		
 	    </div>
 	    <div class='navbar-collapse collapse'>
-                <ul class='nav navbar-nav'> <!--All these links need fixing-->
+                <ul class='nav navbar-nav'>
                     <li><a href='../index.html'>Home</a></li>
                     <li><a href='#'>About</a></li>
                     <li><a href='lessons.html'>Lessons</a></li>
-		    <!-- <li><a href='#'>Photos</a></li> --> <!--Implement in post release update-->
-                    <li><a href='../index.html/#contact'>Contact Us</a></li>
-                    <!-- <li><a href='#'>Links</a></li> --> <!--Implement in post release update-->
+                    <!-- [CONTACT US DROPDOWN] -->
+                    <li class='dropdown'>
+                        <a href='#' data-toggle='dropdown' class='dropdown-toggle'>Contact Us<b class='caret'></b></a>
+                        <ul class='dropdown-menu'>
+                                <li class='contact-dropdown-header'><center>Contacting us is Easy</center></li>
+                                <li class='divider'></li>
+                                <li><a href='#'><span class='glyphicon glyphicon-earphone dropdown-menu-glyph'></span>Phone: (678)-447-4092</a></li><br>
+                                <li><a href='mailto:averylyu@gmail.com'><span class='glyphicon glyphicon-envelope dropdown-menu-glyph'></span>Email Us: averylyu@gmail.com</a></li>
+                        </ul>
+                    </li>
+                    <!-- [END CONTACT US DROPDOWN] -->
                 </ul>
 	    </div> 
 	</div>

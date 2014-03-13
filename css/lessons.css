@@ -40,3 +40,7 @@ html {
     background-color: #4791D2;  
 }
 
+.container {
+	padding-left: 2.5em;
+	padding-right: 2.5em;
+}

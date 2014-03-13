@@ -209,6 +209,16 @@ a.blue:hover {color: #DDD; text-decoration: none;}
     color: #222;
 }
 
+.dropdown-menu-glyph {
+  padding-right: 2em;
+}
+
+.contact-dropdown-header {
+  padding-top: 0.5em;
+  font-family: opensans_bold;
+  font-size: 20px;
+}
+
 /* Section specific fixes
  *================================== */
 #lessons {
